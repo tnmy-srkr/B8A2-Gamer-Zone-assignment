@@ -8,22 +8,31 @@
   box-sizing: border-box;
   font-family: "Work Sans", sans-serif;
 }
-
+.btn-primary {
+color: #FFF;
+font-size: 1.25rem;
+border: 0;
+font-weight: 600;
+padding: 15px 35px;
+border-radius: 50px;
+background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+}
 /* navbar section starts here  */
 header {
   background: #fff;
   box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
 }
 .nav-container {
-  min-height: 70px;
+  /* min-height: 70px; */
   width: 80%;
   margin: 0 auto;
   display: flex;
-  /* justify-content: space-between;
-    align-items: center; */
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
 }
 .nav-logo-container {
-  min-height: 50px;
+  /* min-height: 50px; */
   width: 50%;
   display: flex;
   justify-content: start;
@@ -43,7 +52,7 @@ header {
   color: #ff42a5;
 }
 .nav-items-container {
-  min-height: 50px;
+  /* min-height: 50px; */
   width: 50%;
   display: flex;
   justify-content: end;
@@ -63,3 +72,65 @@ header {
 }
 
 /* navbar section ends here  */
+
+/* banner section starts here */
+.banner-container {
+  width: 80%;
+  height: 40rem;
+  margin: 0 auto;
+  border: 2px solid red;
+  /* min-height: 00px; */
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  background-image: url(../resources/images/Group\ 14.png);
+  background-size: 50% 100%;
+  background-repeat: no-repeat;
+  /* background-position: center; */
+}
+
+.banner-text {
+  width: 50%;
+  border: 1px solid rgb(0, 255, 21);
+  min-height: 100px;
+  
+}
+.banner-image {
+  width: 50%;
+  border: 1px solid rgb(98, 0, 255);
+ 
+}
+.banner-img{
+  width: 100%;
+  height: 100%;
+object-fit: cover;
+}
+.banner-heading-1 {
+  color: #0b0223;
+  font-size: 3rem;
+  font-weight: 600;
+}
+.banner-heading-2 {
+  font-size: 6rem;
+  font-weight: 800;
+  border: 1px solid;
+ background-image: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+.banner-container li {
+  color: #534c64;
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+.banner-container .list-1 {
+  list-style-image: url("../resources/icons/frame1.png");
+}
+.banner-container .list-2 {
+  list-style-image: url("../resources/icons/frame2.png");
+}
+.banner-container .list-3 {
+  list-style-image: url("../resources/icons/frame3.png");
+}
+/* banner section ends here */
