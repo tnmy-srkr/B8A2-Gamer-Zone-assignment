@@ -1,5 +1,65 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+/* This is shared section styling */
+
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Work Sans", sans-serif;
 }
+
+/* navbar section starts here  */
+header {
+  background: #fff;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+.nav-container {
+  min-height: 70px;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  /* justify-content: space-between;
+    align-items: center; */
+}
+.nav-logo-container {
+  min-height: 50px;
+  width: 50%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 10px;
+}
+.logo-img {
+  width: 86.041px;
+  height: 40px;
+}
+.logo-name {
+  color: #0b0223;
+  font-size: 2.81rem;
+  font-weight: 700;
+}
+.red-font {
+  color: #ff42a5;
+}
+.nav-items-container {
+  min-height: 50px;
+  width: 50%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 25px;
+}
+.nav-items-container a {
+  text-decoration: none;
+  color: #3c354f;
+  font-size: 1.125rem;
+  font-weight: 500;
+}
+.nav-items-container .follow-us {
+  border-radius: 8px;
+  background: rgba(11, 2, 35, 0.1);
+  padding: 10px;
+}
+
+/* navbar section ends here  */
