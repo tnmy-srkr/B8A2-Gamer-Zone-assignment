@@ -1,5 +1,5 @@
 /* For mobile */
-@media screen and (min-width: 320px) and (max-width: 576px) {
+@media screen and (min-width: 375px) and (max-width: 576px) {
     /* navbar section starts here */
   .nav-container {
     flex-direction: column;
@@ -24,8 +24,53 @@
  /* navbar section ends here */
  /* banner section starts here */
 
+ .banner-container{
+    flex-direction: column-reverse;
+    margin-top: 30px;
+    gap: 50px;
+ }
+.banner-text-content, .banner-image{
+    width: 100%;
+    text-align: center;
+}
+.banner-container-section{
+    background: none;
+}
+.banner-text-content{
+    background-image: url(../resources/images/Group\ 14.png);
+    background-size:130%;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 50px;
+}
+.banner-text{
+    width: 70%;
+    margin: 0 auto;
 
-
+}
+.banner-img{
+    margin-top: 80px;
+}
+.banner-heading-1{
+    font-size: 1.8rem;
+    margin-top: 50px;
+}
+.banner-heading-2{
+    font-size: 3rem;
+}
+.banner-container li{
+    text-align: left;
+    font-size: .7rem;
+    list-style-position: inside;
+}
+.btn-primary{
+    font-size:.6rem ;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+}
+.btn-2{
+    margin-bottom: 50px;
+}
  /* banner section ends here */
 }
 /* For tablet */
