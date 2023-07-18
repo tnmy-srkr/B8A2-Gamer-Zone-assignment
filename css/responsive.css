@@ -26,13 +26,15 @@
 
  .banner-container{
     flex-direction: column-reverse;
-    margin-top: 30px;
+    margin-top: 80px;
+    margin-bottom: 80px;
     gap: 50px;
  }
-.banner-text-content, .banner-image{
+.banner-text-content {
     width: 100%;
     text-align: center;
 }
+
 .banner-container-section{
     background: none;
 }
@@ -48,8 +50,13 @@
     margin: 0 auto;
 
 }
+.banner-image{
+   padding-bottom: 50px;
+}
 .banner-img{
+    width: 100%;
     margin-top: 80px;
+    object-fit: contain;
 }
 .banner-heading-1{
     font-size: 1.8rem;
@@ -58,11 +65,11 @@
 .banner-heading-2{
     font-size: 3rem;
 }
-.banner-container li{
+/* .banner-container li{
     text-align: left;
     font-size: .7rem;
     list-style-position: inside;
-}
+} */
 .btn-primary{
     font-size:.6rem ;
     padding: 10px 20px;
