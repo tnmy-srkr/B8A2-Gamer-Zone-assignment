@@ -1,5 +1,5 @@
 /* For mobile */
-@media screen and (min-width: 375px) and (max-width: 576px) {
+@media screen and (max-width: 576px) {
     /* navbar section starts here */
   .nav-container {
     flex-direction: column;
@@ -79,9 +79,47 @@
     margin-bottom: 50px;
 }
  /* banner section ends here */
+
+
+
+
+
+ /* footer section styling starts here */
+.footer-links, .footer-icons{
+  display:grid;
+  grid-template-columns: repeat(3,70px);
+  place-items: center;
+ margin-bottom: 20px;
+ 
+}
+.footer-links a, .footer-terms a{
+  font-size: .7rem;
+}
+.footer-terms{
+  display:grid;
+  grid-template-columns: repeat(2,120px);
+  place-items: center;
+  margin-bottom: 20px;
+}
+.footer-copy-write{
+  font-size: 0.6rem;
+}
+.footer-name{
+  font-size: 2rem;
+}
+.footer-logo-img {
+width: 70px;
+height: 30%;
+}
+
+
+
+
+
+ /* footer section styling ends here */
 }
 /* For tablet */
-@media screen and (min-width: 576px) and (max-width: 768px) {
+@media screen and (min-width: 576px) and (max-width: 960px) {
      /* navbar section starts here */
     .nav-container {
         flex-direction: column;
@@ -110,5 +148,46 @@
 
 
      /* banner section ends here */
+
+
+
+
+
+     /* footer section styling starts here */
+     .footer-links, .footer-icons{
+      display:grid;
+      grid-template-columns: repeat(6,80px);
+      place-items: center;
+     margin-bottom: 20px;
+     
+    }
+    .footer-links a, .footer-terms a{
+      font-size: 0.8rem;
+    }
+    .footer-terms{
+      display:grid;
+      grid-template-columns: repeat(4,130px);
+      place-items: center;
+      margin-bottom: 20px;
+    }
+    .footer-copy-write{
+      font-size: 0.85rem;
+    }
+    .footer-name{
+      font-size: 2.5rem;
+    }
+    .footer-logo-img {
+    width: 75px;
+    height: 35%;
+    }
+    
+
+
+
+
+     /* footer section styling ends here */
+
     }
      
+
+

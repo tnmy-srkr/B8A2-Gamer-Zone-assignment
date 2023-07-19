@@ -1,5 +1,7 @@
 /* This is shared section styling */
-
+.hide{
+  display:none;
+}
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;400;500;600;700;800;900&display=swap");
 
 * {
@@ -136,3 +138,63 @@ object-fit: cover;
   background-color: #4EC5F7;
 }
 /* banner section ends here */
+
+
+
+
+/* footer section styling starts here */
+.footer-container{
+  min-height: 300px;
+  background: #0B0223;
+  
+}
+.footer-logo{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0 20px 0;
+}
+.white-font{
+  color: #fff;
+}
+.footer-links, .footer-terms{
+  min-height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+.footer-links a{
+  text-decoration: none;
+  color: #FFF;
+font-size: 1.125rem;
+font-weight: 600;
+}
+.footer-icons{
+  min-height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+.footer-icon{
+  height: 30px;
+  width: 30px;
+}
+
+.footer-terms{
+  min-height: 50px;
+}
+.footer-copy-write{
+  min-height: 50px;
+}
+.footer-terms a, .footer-copy-write{
+  text-decoration: none;
+color: rgba(255, 255, 255, 0.60);
+font-weight: 500;
+}
+.footer-copy-write{
+text-align: center;
+}
+/* footer section styling ends here */
