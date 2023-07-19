@@ -1,6 +1,6 @@
 /* For mobile */
 @media screen and (max-width: 576px) {
-    /* navbar section starts here */
+  /* navbar section starts here */
   .nav-container {
     flex-direction: column;
     gap: 20px;
@@ -17,356 +17,405 @@
     width: 100%;
     margin: 0 auto;
   }
-  
-  .follow-us{
+
+  .follow-us {
     margin-bottom: 15px;
   }
- /* navbar section ends here */
- /* banner section starts here */
-
- .banner-container{
+  /* navbar section ends here */
+  /* banner section starts here */
+  .banner-container-section {
+    /* padding-top: 80px */
+  }
+  .banner-container {
     flex-direction: column-reverse;
-    margin-top: 80px;
+    /* margin-top: 80px; */
     margin-bottom: 80px;
-    gap: 50px;
- }
-.banner-text-content {
+    gap: 10px;
+  }
+  /* .banner-text-content {
     width: 100%;
     text-align: center;
-}
+} */
 
-.banner-container-section{
+  .banner-container-section {
     background: none;
-}
-.banner-text-content{
+  }
+  .banner-text-content {
+  }
+  .banner-text {
+    width: 100%;
+
+    margin: 0 auto;
+    text-align: center;
     background-image: url(../resources/images/Group\ 14.png);
-    background-size:130%;
+    background-size: 200% 10%;
+    background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    margin-top: 50px;
-}
-.banner-text{
-    width: 70%;
-    margin: 0 auto;
-
-}
-.banner-image{
-   padding-bottom: 50px;
-}
-.banner-img{
+    /* margin-top: 50px; */
+  }
+  .banner-image {
     width: 100%;
-    margin-top: 80px;
+    height: 80%;
+    /* height: inherit; */
+    /* background-size: contain; */
+    /* margin-top: 100px; */
+    /* padding-bottom: 50px; */
+  }
+  .banner-img {
+    width: 100%;
+    height: 100%;
+    /* margin-top: 100px; */
+
     object-fit: contain;
-}
-.banner-heading-1{
+  }
+  .banner-heading-1 {
     font-size: 1.8rem;
-    margin-top: 50px;
-}
-.banner-heading-2{
+    /* margin-top: 50px; */
+  }
+  .banner-heading-2 {
     font-size: 3rem;
-}
-/* .banner-container li{
-    text-align: left;
-    font-size: .7rem;
-    list-style-position: inside;
-} */
-.btn-primary{
-    font-size:.6rem ;
+  }
+
+  .btn-primary {
+    font-size: 0.6rem;
     padding: 10px 20px;
     margin-bottom: 10px;
-}
-.btn-2{
+  }
+  .btn-2 {
     margin-bottom: 50px;
-}
- /* banner section ends here */
+  }
+  /* banner section ends here */
 
-/* gammer section starts here */
+  /* gamer section starts here */
 
-.gammer-container{
-  flex-direction: column;
-}
-.gammer-image{
-  width: 100%;
+  .gamer-container {
+    flex-direction: column;
+  }
+  .gamer-image {
+    width: 100%;
+  }
+  .gamer-info {
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .gamer-info-headings {
+    font-size: 1.8rem;
+  }
+  .gamer-info-para {
+    line-height: 1.5rem;
+    font-size: 0.8rem;
+  }
+  .our-purpose {
+    font-size: 0.9rem;
+    padding-bottom: 10px;
+  }
+  .quote {
+    font-size: 1rem;
+  }
 
-}
-.gammer-info{
+  /* gamer section ends here */
 
-  width: 75%;
-  margin: 0 auto;
-text-align: center;
-}
-.gammer-info-headings{
-  font-size: 1.8rem;
-}
-.gammer-info-para{
-line-height: 1.5rem;
-font-size: 0.8rem;
-}
-.our-purpose{
-font-size: 0.9rem;
-padding-bottom: 10px;
-}
-.quote{
-font-size: 1rem;
-}
-     
-     /* gammer section ends here */
-
-
-     /* funny video section starts here */
-     .funny-video-text{
-      width:100%;
-      margin: 0 auto;
-      padding-top:20px;
-     }
-   .funny-video-text h3,.funny-video-text .funny-video-name-2{
+  /* funny video section starts here */
+  .funny-video-text {
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 20px;
+  }
+  .funny-video-text h3,
+  .funny-video-text .funny-video-name-2 {
     font-size: 1.5rem;
-   }
-   .funny-video-text p{
-font-size: 0.8rem;
-margin-bottom: 20px;
-   }
-    .video-container{
-      grid-template-columns: repeat(1,1fr);
-      gap: 40px;
-    }
-    .video-container-boxes{
-text-align: center;    
-    }
-   .video-container-box-para{
-    font-size: 0.8rem ;
-    } 
-    
-     /* funny video section ends here */
+  }
+  .funny-video-text p {
+    font-size: 0.8rem;
+    margin-bottom: 20px;
+  }
+  .video-container {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 40px;
+  }
+  .video-container-boxes {
+    text-align: center;
+  }
+  .video-container-box-para {
+    font-size: 0.8rem;
+  }
 
-/* play online game instantly section1 starts */
-.play-instantly-container{
- flex-direction: column;
- gap:70px
-}
-.play-instantly-text{
-  width: 100%;
- text-align:center;
-}
-.funny-video-name{
-  font-size: 1.8rem;
-}
+  /* funny video section ends here */
 
+  /* play online game instantly section1 starts */
+  .play-instantly-container {
+    flex-direction: column;
+    gap: 70px;
+  }
+  .play-instantly-text {
+    width: 100%;
+    text-align: center;
+  }
+  .funny-video-name {
+    font-size: 1.8rem;
+  }
 
-.play-instantly-image{
-  width: 80%;
-  left: 20px;
-}
+  .play-instantly-image {
+    width: 80%;
+    left: 20px;
+  }
 
-.play-instantly-child-img{
-left: -50px;
-bottom: -40px;
-}
+  .play-instantly-child-img {
+    left: -50px;
+    bottom: -40px;
+  }
 
-/* play online game instantly section1 ends */
+  /* play online game instantly section1 ends */
 
-/* play online game instantly section2 starts */
+  /* play online game instantly section2 starts */
 
- 
- .play-instantly-image-2{
-   width: 80%;
-   right: 20px;
- }
- 
- .play-instantly-child-img-2{
- right: -50px;
- bottom: -40px;
- }
- 
- /* play online game instantly section2 ends */
- /* footer section styling starts here */
-.footer-links, .footer-icons{
-  display:grid;
-  grid-template-columns: repeat(3,70px);
-  place-items: center;
- margin-bottom: 20px;
- 
-}
-.footer-links a, .footer-terms a{
-  font-size: .7rem;
-}
-.footer-terms{
-  display:grid;
-  grid-template-columns: repeat(2,120px);
-  place-items: center;
-  margin-bottom: 20px;
-}
-.footer-copy-write{
-  font-size: 0.6rem;
-}
-.footer-name{
-  font-size: 2rem;
-}
-.footer-logo-img {
-width: 70px;
-height: 30%;
-}
+  .play-instantly-image-2 {
+    width: 80%;
+    right: 20px;
+  }
 
- /* footer section styling ends here */
-}
-/* For tablet */
-@media screen and (min-width: 576px) and (max-width: 960px) {
-     /* navbar section starts here */
+  .play-instantly-child-img-2 {
+    right: -50px;
+    bottom: -40px;
+  }
+
+  /* play online game instantly section2 ends */
+  /* footer section styling starts here */
+  .footer-links,
+  .footer-icons {
+    display: grid;
+    grid-template-columns: repeat(3, 70px);
+    place-items: center;
+    margin-bottom: 20px;
+  }
+  .footer-links a,
+  .footer-terms a {
+    font-size: 0.7rem;
+  }
+  .footer-terms {
+    display: grid;
+    grid-template-columns: repeat(2, 120px);
+    place-items: center;
+    margin-bottom: 20px;
+  }
+  .footer-copy-write {
+    font-size: 0.6rem;
+  }
+  .footer-name {
+    font-size: 2rem;
+  }
+  .footer-logo-img {
+    width: 70px;
+    height: 30%;
+  }
+
+  /* footer section styling ends here */
+
+  /* For tablet */
+  @media screen and (min-width: 576px) and (max-width: 960px) {
+    /* navbar section starts here */
     .nav-container {
+      flex-direction: column;
+      gap: 20px;
+      width: 100%;
+      padding-top: 30px;
+    }
+    .nav-logo-container {
+      width: 100%;
+      margin: 0 auto;
+      justify-content: center;
+    }
+
+    .nav-items-container {
+      flex-direction: column;
+      width: 100%;
+      margin: 0 auto;
+    }
+    .follow-us {
+      margin-bottom: 15px;
+    }
+    /* navbar section ends here */
+    /* banner section starts here */
+    .banner-container-section {
+      /* padding-top: 80px */
+    }
+    .banner-container {
+      flex-direction: column;
+      /* margin-top: 80px; */
+      /* margin-bottom: 80px; */
+      gap: 10px;
+    }
+  
+    .banner-container-section {
+      background: none;
+    }
+   
+    .banner-text {
+      width: 100%;
+      margin: 0 auto;
+      text-align: center;
+      background-image: url(../resources/images/Group\ 14.png);
+      background-size: 200% 10%;
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+    .banner-image {
+      width: 100%;
+      height: 80%;
+    
+    }
+    .banner-img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+    .banner-heading-1 {
+      font-size: 1.8rem;
+    }
+    .banner-heading-2 {
+      font-size: 3rem;
+    }
+  
+    .btn-primary {
+      font-size: 0.6rem;
+      padding: 10px 20px;
+      margin-bottom: 10px;
+    }
+    .btn-2 {
+      margin-bottom: 50px;
+      /* banner section ends here */
+
+      /* gamer section starts here */
+
+      .gamer-container {
         flex-direction: column;
-        gap: 20px;
+      }
+      .gamer-image {
         width: 100%;
+      }
+      .gamer-info {
+        width: 85%;
+        margin: 0 auto;
+        text-align: center;
+      }
+      .gamer-info-headings {
+        font-size: 2.4rem;
+      }
+      .gamer-info-para {
+        line-height: 1.8rem;
+        font-size: 1rem;
+      }
+      .our-purpose {
+        font-size: 1rem;
+        padding-bottom: 10px;
+      }
+      .quote {
+        font-size: 1.3rem;
+      }
+
+      /* gamer section ends here */
+
+      /* funny video section starts here */
+
+      .funny-video-text {
+        width: 90%;
+        margin: 0 auto;
         padding-top: 30px;
       }
-      .nav-logo-container {
-        width: 100%;
-        margin: 0 auto;
-        justify-content: center;
+      .funny-video-text h3,
+      .funny-video-text .funny-video-name-2 {
+        font-size: 2.2rem;
+      }
+      .funny-video-text p {
+        font-size: 1rem;
+        margin-bottom: 20px;
+      }
+      .video-container {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 40px;
+      }
+      .video-container-boxes {
+        text-align: center;
+      }
+      .video-container-box-para {
+        font-size: 1rem;
       }
 
-      .nav-items-container {
+      /* funny video section ends here */
+      /* play online game instantly section1 starts */
+      .play-instantly-container {
         flex-direction: column;
+        gap: 70px;
+      }
+      .play-instantly-text {
         width: 100%;
-        margin: 0 auto;
+        text-align: center;
       }
-      .follow-us{
-        margin-bottom: 15px;
+      .funny-video-name {
+        font-size: 2rem;
       }
-     /* navbar section ends here */
-     /* banner section starts here */
 
-     /* banner section ends here */
+      .play-instantly-para {
+        font-size: 1.5rem;
+      }
+      .play-instantly-image {
+        width: 80%;
+        left: 40px;
+      }
 
-     /* gammer section starts here */
+      .play-instantly-child-img {
+        left: -90px;
+        bottom: -60px;
+      }
 
-     .gammer-container{
-      flex-direction: column;
-    }
-    .gammer-image{
-      width: 100%;
-  
-    }
-    .gammer-info{
-      width: 85%;
-      margin: 0 auto;
-    text-align: center;
-    }
-    .gammer-info-headings{
-      font-size: 2.4rem;
-    }
-    .gammer-info-para{
-    line-height: 1.8rem;
-    font-size: 1rem;
-    }
-    .our-purpose{
-    font-size: 1rem;
-    padding-bottom: 10px;
-    }
-    .quote{
-    font-size: 1.3rem;
-    }
+      /* play online game instantly section1 ends */
+      /* play online game instantly section2 starts */
 
-     /* gammer section ends here */
+      .play-instantly-image-2 {
+        width: 80%;
+        right: 40px;
+      }
 
+      .play-instantly-child-img-2 {
+        right: -90px;
+        bottom: -60px;
+      }
 
-     /* funny video section starts here */
+      /* play online game instantly section2 ends */
 
-     .funny-video-text{
-      width:90%;
-      margin: 0 auto;
-      padding-top:30px;
-     }
-   .funny-video-text h3,.funny-video-text .funny-video-name-2{
-    font-size: 2.2rem;
-   }
-   .funny-video-text p{
-font-size: 1rem;
-margin-bottom: 20px;
-   }
-    .video-container{
-      grid-template-columns: repeat(2,1fr);
-      gap: 40px;
+      /* footer section styling starts here */
+      .footer-links,
+      .footer-icons {
+        display: grid;
+        grid-template-columns: repeat(6, 80px);
+        place-items: center;
+        margin-bottom: 20px;
+      }
+      .footer-links a,
+      .footer-terms a {
+        font-size: 0.8rem;
+      }
+      .footer-terms {
+        display: grid;
+        grid-template-columns: repeat(4, 130px);
+        place-items: center;
+        margin-bottom: 20px;
+      }
+      .footer-copy-write {
+        font-size: 0.85rem;
+      }
+      .footer-name {
+        font-size: 2.5rem;
+      }
+      .footer-logo-img {
+        width: 75px;
+        height: 35%;
+      }
+
+      /* footer section styling ends here */
     }
-    .video-container-boxes{
-text-align: center;    
-    }
-   .video-container-box-para{
-    font-size: 1rem ;
-    } 
-
-     /* funny video section ends here */
-/* play online game instantly section1 starts */
-.play-instantly-container{
-  flex-direction: column;
-  gap:70px
- }
- .play-instantly-text{
-   width: 100%;
-  text-align:center;
- }
- .funny-video-name{
-   font-size: 2rem;
- }
- 
- .play-instantly-para{
-font-size: 1.5rem;}
- .play-instantly-image{
-   width: 80%;
-   left: 40px;
- }
- 
- .play-instantly-child-img{
- left: -90px;
- bottom: -60px;
- }
- 
-/* play online game instantly section1 ends */
-/* play online game instantly section2 starts */
-
- 
-.play-instantly-image-2{
-  width: 80%;
-  right: 40px;
+  }
 }
-
-.play-instantly-child-img-2{
-right: -90px;
-bottom: -60px;
-}
-
-/* play online game instantly section2 ends */
-
-     /* footer section styling starts here */
-     .footer-links, .footer-icons{
-      display:grid;
-      grid-template-columns: repeat(6,80px);
-      place-items: center;
-     margin-bottom: 20px;
-     
-    }
-    .footer-links a, .footer-terms a{
-      font-size: 0.8rem;
-    }
-    .footer-terms{
-      display:grid;
-      grid-template-columns: repeat(4,130px);
-      place-items: center;
-      margin-bottom: 20px;
-    }
-    .footer-copy-write{
-      font-size: 0.85rem;
-    }
-    .footer-name{
-      font-size: 2.5rem;
-    }
-    .footer-logo-img {
-    width: 75px;
-    height: 35%;
-    }
-    
-     /* footer section styling ends here */
-
-    }
-     
-
-
