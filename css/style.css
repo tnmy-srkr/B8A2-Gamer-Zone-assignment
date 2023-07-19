@@ -118,28 +118,73 @@ object-fit: cover;
   -webkit-background-clip: text;
   color: transparent;
 }
-/* 
- */
-/* .banner-container .list-1 {
-  list-style-image: url("../resources/icons/frame1.png");
-}
-.banner-container .list-2 {
-  list-style-image: url("../resources/icons/frame2.png");
-}
-.banner-container .list-3 {
-  padding-bottom: 20px;
-  list-style-image: url("../resources/icons/frame3.png");
-} */
-.banner-container .btn-1{
-  margin-right: 10px;
+
+.banner-container .btn-1,.gammer-container .btn-1{
   background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
 }
 .banner-container .btn-2{
+  margin-left: 10px;
   background-color: #4EC5F7;
 }
 /* banner section ends here */
 
+/* gammer section starts here */
+.gammer-container-section{
+  background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+}
+.gammer-container{
+  width: 80%;
+  margin: 0 auto;
+border: 1px solid red;
+min-height: 100px;
+display: flex;
+align-items: center;
+padding: 30px 0;
+}
+.gammer-image{
+  border: 1px solid red;
+  width: 60%;
+min-height: 100px;
 
+}
+.gammer-img{
+  width: 100%;
+  height: max-content;
+  object-fit: contain;
+}
+.gammer-info{
+  border: 1px solid red;
+  width: 40%;
+min-height: 100px;
+text-align: right;
+
+}
+.gammer-info-headings{
+  font-size: 2.8rem;
+  margin-bottom: 20px;
+}
+.gammer-info-para{
+  color: #534C64;
+font-weight: 400;
+line-height: 1.8rem;
+margin-bottom: 20px;
+}
+.our-purpose{
+  color: #534C64;
+font-size: 1.2rem;
+font-weight: 500;
+padding: 25px 0 2px;
+}
+.quote{
+  color: #534C64;
+font-size: 1.5rem;
+font-weight: 700;
+
+}
+
+
+
+/* gammer section ends here */
 
 
 /* footer section styling starts here */

@@ -80,7 +80,37 @@
 }
  /* banner section ends here */
 
+/* gammer section starts here */
 
+.gammer-container{
+  flex-direction: column;
+}
+.gammer-image{
+  width: 100%;
+
+}
+.gammer-info{
+
+  width: 75%;
+  margin: 0 auto;
+text-align: center;
+}
+.gammer-info-headings{
+  font-size: 2rem;
+}
+.gammer-info-para{
+line-height: 1.5rem;
+font-size: 0.8rem;
+}
+.our-purpose{
+font-size: 0.9rem;
+padding-bottom: 10px;
+}
+.quote{
+font-size: 1rem;
+}
+     
+     /* gammer section ends here */
 
 
 
@@ -112,10 +142,6 @@ width: 70px;
 height: 30%;
 }
 
-
-
-
-
  /* footer section styling ends here */
 }
 /* For tablet */
@@ -144,12 +170,43 @@ height: 30%;
      /* navbar section ends here */
      /* banner section starts here */
 
-
-
-
      /* banner section ends here */
 
+     /* gammer section starts here */
 
+     .gammer-container{
+      flex-direction: column;
+    }
+    .gammer-image{
+      width: 100%;
+  
+    }
+    .gammer-info{
+      width: 85%;
+      margin: 0 auto;
+    text-align: center;
+    }
+    .gammer-info-headings{
+      font-size: 2.4rem;
+    }
+    .gammer-info-para{
+    line-height: 1.8rem;
+    font-size: 1rem;
+    }
+    .our-purpose{
+    font-size: 1rem;
+    padding-bottom: 10px;
+    }
+    .quote{
+    font-size: 1.3rem;
+    }
+
+
+
+
+
+
+     /* gammer section ends here */
 
 
 
@@ -181,10 +238,6 @@ height: 30%;
     height: 35%;
     }
     
-
-
-
-
      /* footer section styling ends here */
 
     }
