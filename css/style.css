@@ -306,6 +306,43 @@ bottom: -50px;
 height: 100%;
 }
 /* play online game instantly section2 ends  */
+
+
+/* game name section starts */
+.game-name-container{
+width: 80%;
+margin: 0 auto;
+display: flex;
+flex-wrap: wrap;
+}
+.game-names{
+display: flex;
+align-items: center;
+gap: 10px;
+border: 1px solid red;
+flex-basis: 200px;
+}
+
+.game-names-image{
+  border-radius: 50px;
+
+  background:lightgray 50% / cover no-repeat;
+}
+.game-names-img{
+  width: 60px;
+  height: 60px;
+ 
+}
+.game-name{
+  color: #0B0223;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+
+/* game name section starts */
+
+
 /* footer section styling starts here */
 .footer-container{
   min-height: 300px;
