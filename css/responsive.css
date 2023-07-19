@@ -288,7 +288,7 @@
       /* gamer section starts here */
 
       .gamer-container {
-        flex-direction: column;
+        flex-direction: column-reverse;
       }
       .gamer-image {
         width: 100%;
