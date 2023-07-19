@@ -13,7 +13,7 @@
 color: #FFF;
 border: 0;
 font-weight: 600;
-padding: 15px 35px;
+padding: 15px 30px;
 border-radius: 50px;
 cursor: pointer;
 }
@@ -89,7 +89,7 @@ header {
   margin: 0 auto;
   display: flex;
   /* background-image: url(../resources/images/Group\ 18.png); */
-gap: 200px;
+gap: 175px;
   /* justify-content: center; */
   align-items: center;
   
@@ -261,9 +261,7 @@ display: inline-block;
   /* padding: 10px; */
   /* display: inline-block; */
 }
-.video-play-btn i {
-  /* color: white; */
-}
+
 .video-container-box:hover .video-play-btn,
 .video-container-box:hover .image-text {
   display: block;
@@ -404,8 +402,12 @@ border-radius: 50px;
 background: #fffffffc;
 }
 .game-names:hover{
-  background: #d5d1d133;
+  background: #71d0e365;
   box-shadow: 0 0 0 2px rgb(250, 8, 230);
+
+}
+.game-names:hover .game-name{
+  color: rgb(238, 11, 87);
 }
 .game-names-image{
   border-radius: 50px;
