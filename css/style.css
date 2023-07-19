@@ -227,7 +227,7 @@ padding-top: 15px;
 
   align-items: center;
   min-height: 100px;
-  margin-bottom: 100px;
+  margin-bottom: 150px;
 }
 .play-instantly-text{
   width: 50%;
@@ -272,7 +272,40 @@ height: 100%;
 }
 
 /* play online game instantly section ends */
-
+/* play online game instantly section2 starts  */
+.play-instantly-container-2{
+  flex-direction: row-reverse;
+}
+.play-instantly-text-2{
+  text-align: left;
+}
+.play-instantly-image-2{
+  width: 50%;
+  position: relative;
+}
+.image-3{
+  width: 100%;
+  height:100%;
+  border-radius: 10px;
+}
+.play-instantly-child-img-2{
+  width: 50%;
+  height: 50%;
+border-radius: 10px;
+border: 1px solid rgba(128, 128, 128, 0.292);
+background-image:lightgray 0px -0.304px / 100% 117.229%;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+position: absolute;
+right: -110px;
+bottom: -50px;
+}
+.image-4{
+  width: 100%;
+height: 100%;
+}
+/* play online game instantly section2 ends  */
 /* footer section styling starts here */
 .footer-container{
   min-height: 300px;

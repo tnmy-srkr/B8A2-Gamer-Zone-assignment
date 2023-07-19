@@ -139,7 +139,7 @@ text-align: center;
     
      /* funny video section ends here */
 
-/* play online game instantly section starts */
+/* play online game instantly section1 starts */
 .play-instantly-container{
  flex-direction: column;
  gap:70px
@@ -163,9 +163,22 @@ left: -50px;
 bottom: -40px;
 }
 
-/* play online game instantly section ends */
+/* play online game instantly section1 ends */
 
+/* play online game instantly section2 starts */
 
+ 
+ .play-instantly-image-2{
+   width: 80%;
+   right: 20px;
+ }
+ 
+ .play-instantly-child-img-2{
+ right: -50px;
+ bottom: -40px;
+ }
+ 
+ /* play online game instantly section2 ends */
  /* footer section styling starts here */
 .footer-links, .footer-icons{
   display:grid;
@@ -282,7 +295,7 @@ text-align: center;
     } 
 
      /* funny video section ends here */
-/* play online game instantly section starts */
+/* play online game instantly section1 starts */
 .play-instantly-container{
   flex-direction: column;
   gap:70px
@@ -295,7 +308,8 @@ text-align: center;
    font-size: 2rem;
  }
  
- 
+ .play-instantly-para{
+font-size: 1.5rem;}
  .play-instantly-image{
    width: 80%;
    left: 40px;
@@ -306,8 +320,21 @@ text-align: center;
  bottom: -60px;
  }
  
-/* play online game instantly section ends */
+/* play online game instantly section1 ends */
+/* play online game instantly section2 starts */
 
+ 
+.play-instantly-image-2{
+  width: 80%;
+  right: 40px;
+}
+
+.play-instantly-child-img-2{
+right: -90px;
+bottom: -60px;
+}
+
+/* play online game instantly section2 ends */
 
      /* footer section styling starts here */
      .footer-links, .footer-icons{
