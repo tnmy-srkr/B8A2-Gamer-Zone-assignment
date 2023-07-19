@@ -135,14 +135,12 @@ object-fit: cover;
 .gammer-container{
   width: 80%;
   margin: 0 auto;
-border: 1px solid red;
 min-height: 100px;
 display: flex;
 align-items: center;
 padding: 30px 0;
 }
 .gammer-image{
-  border: 1px solid red;
   width: 60%;
 min-height: 100px;
 
@@ -153,7 +151,6 @@ min-height: 100px;
   object-fit: contain;
 }
 .gammer-info{
-  border: 1px solid red;
   width: 40%;
 min-height: 100px;
 text-align: right;
@@ -181,10 +178,50 @@ font-size: 1.5rem;
 font-weight: 700;
 
 }
-
-
-
 /* gammer section ends here */
+
+
+/* funny video section starts here */
+.funny-video-text{
+  text-align: center;
+margin: 50px 0 50px;
+}
+.funny-video-name{
+  color: #0B0223;
+font-size: 2.4rem;
+font-weight: 700;
+padding-bottom: 20px;
+}
+.video-container{
+  width: 80%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 15px;
+  margin-bottom: 80px;
+}
+
+.video-container-box{
+width: 100%;
+border-radius: 1rem;
+}
+.video-container-box-img{
+  width: 100%;
+  border-radius: 1rem;
+}
+.video-container-box-para{
+color: #534C64;
+font-weight: 500;
+line-height: 1.5rem ;
+padding-top: 15px;
+}
+
+/* funny video section ends here */
+
+
+
+
+
 
 
 /* footer section styling starts here */

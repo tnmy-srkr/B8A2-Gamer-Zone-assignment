@@ -96,7 +96,7 @@
 text-align: center;
 }
 .gammer-info-headings{
-  font-size: 2rem;
+  font-size: 1.8rem;
 }
 .gammer-info-para{
 line-height: 1.5rem;
@@ -111,6 +111,33 @@ font-size: 1rem;
 }
      
      /* gammer section ends here */
+
+
+     /* funny video section starts here */
+     .funny-video-text{
+      width:100%;
+      margin: 0 auto;
+      padding-top:20px;
+     }
+   .funny-video-text h3,.funny-video-text .funny-video-name-2{
+    font-size: 1.5rem;
+   }
+   .funny-video-text p{
+font-size: 0.8rem;
+margin-bottom: 20px;
+   }
+    .video-container{
+      grid-template-columns: repeat(1,1fr);
+      gap: 40px;
+    }
+    .video-container-boxes{
+text-align: center;    
+    }
+   .video-container-box-para{
+    font-size: 0.8rem ;
+    } 
+    
+     /* funny video section ends here */
 
 
 
@@ -201,12 +228,35 @@ height: 30%;
     font-size: 1.3rem;
     }
 
-
-
-
-
-
      /* gammer section ends here */
+
+
+     /* funny video section starts here */
+
+     .funny-video-text{
+      width:90%;
+      margin: 0 auto;
+      padding-top:30px;
+     }
+   .funny-video-text h3,.funny-video-text .funny-video-name-2{
+    font-size: 2.2rem;
+   }
+   .funny-video-text p{
+font-size: 1rem;
+margin-bottom: 20px;
+   }
+    .video-container{
+      grid-template-columns: repeat(2,1fr);
+      gap: 40px;
+    }
+    .video-container-boxes{
+text-align: center;    
+    }
+   .video-container-box-para{
+    font-size: 1rem ;
+    } 
+
+     /* funny video section ends here */
 
 
 
