@@ -32,28 +32,22 @@
     margin-bottom: 80px;
     gap: 10px;
   }
-  /* .banner-text-content {
-    width: 100%;
-    text-align: center;
-} */
 
   .banner-container-section {
     background: none;
   }
-  .banner-text-content {
-  }
+  
+
   .banner-text {
     width: 100%;
-
+    /* height: 100%; */
     margin: 0 auto;
     text-align: center;
     background-image: url(../resources/images/Group\ 14.png);
-    background-size: 200% 10%;
     background-size: contain;
     background-repeat: no-repeat;
-    background-position: center;
-    /* margin-top: 50px; */
   }
+ 
   .banner-image {
     width: 100%;
     height: 80%;
@@ -71,7 +65,7 @@
   }
   .banner-heading-1 {
     font-size: 1.8rem;
-    /* margin-top: 50px; */
+    /* padding-top: 100px; */
   }
   .banner-heading-2 {
     font-size: 3rem;
@@ -118,10 +112,12 @@
   /* gamer section ends here */
 
   /* funny video section starts here */
+ 
   .funny-video-text {
     width: 100%;
     margin: 0 auto;
     padding-top: 20px;
+
   }
   .funny-video-text h3,
   .funny-video-text .funny-video-name-2 {
@@ -210,7 +206,7 @@
     width: 70px;
     height: 30%;
   }
-
+}
   /* footer section styling ends here */
 
   /* For tablet */
@@ -238,14 +234,13 @@
     }
     /* navbar section ends here */
     /* banner section starts here */
-    .banner-container-section {
-      /* padding-top: 80px */
-    }
+    
     .banner-container {
+      padding-top: 50px;
+      /* padding-bottom: 200px; */
       flex-direction: column;
-      /* margin-top: 80px; */
-      /* margin-bottom: 80px; */
       gap: 10px;
+      margin-bottom: 100px;
     }
   
     .banner-container-section {
@@ -253,11 +248,11 @@
     }
    
     .banner-text {
+
       width: 100%;
       margin: 0 auto;
       text-align: center;
       background-image: url(../resources/images/Group\ 14.png);
-      background-size: 200% 10%;
       background-size: contain;
       background-repeat: no-repeat;
       background-position: center;
@@ -265,15 +260,17 @@
     .banner-image {
       width: 100%;
       height: 80%;
-    
+     
     }
     .banner-img {
       width: 100%;
       height: 100%;
       object-fit: contain;
+      
     }
     .banner-heading-1 {
       font-size: 1.8rem;
+      padding-top: 50px;
     }
     .banner-heading-2 {
       font-size: 3rem;
@@ -285,7 +282,7 @@
       margin-bottom: 10px;
     }
     .btn-2 {
-      margin-bottom: 50px;
+      margin-bottom: 50px;}
       /* banner section ends here */
 
       /* gamer section starts here */
@@ -319,7 +316,9 @@
       /* gamer section ends here */
 
       /* funny video section starts here */
-
+ .funny-video-section{
+    padding-top: 100px;
+  }
       .funny-video-text {
         width: 90%;
         margin: 0 auto;
@@ -417,5 +416,3 @@
 
       /* footer section styling ends here */
     }
-  }
-}
