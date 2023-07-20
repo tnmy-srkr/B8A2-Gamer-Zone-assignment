@@ -31,13 +31,15 @@
     background-image: url(../resources/images/Group\ 14.png);
 background-position: center left ;
 background-repeat: no-repeat;
-background-size: 100%;
+background-size: 105% 100%;
+display:grid;
   }
   .banner-text{
-    /* padding-left: 100px; */
+    justify-self: center;
   }
   .banner-container {
     grid-template-columns: 1fr;
+    gap: 20px;
    }
 .banner-text-container{
 order: 2;
@@ -45,6 +47,21 @@ order: 2;
 .banner-image-container{
 order: 1;
 }
+.banner-heading-1 {
+  font-size: 1rem;
+}
+.banner-heading-2 {
+  font-size: 2rem;
+}
+.banner-list-text{
+  font-size: 0.8rem;
+}
+.button-1, .button-2{
+  padding:10px 15px;
+  font-size: 0.7rem;
+}
+
+
 
 
 
@@ -262,15 +279,15 @@ order: 1;
       background-image: url(../resources/images/Group\ 14.png);
   background-position: center left ;
   background-repeat: no-repeat;
-  background-size:100%;
-  
-    }
-   
+  background-size:100% 100%;
+  display: grid;
+}
+.banner-text{
+     justify-self: center;
+   }
      .banner-container {
       grid-template-columns: 1fr;
-     
-      /* justify-items: center; */
-     
+      gap: 20px;
      }
 .banner-text-container{
   order: 1;
@@ -278,8 +295,18 @@ order: 1;
 .banner-image-container{
   order: 2;
 }
-
-
+.banner-heading-1 {
+  font-size: 1.7rem;
+}
+.banner-heading-2 {
+  font-size: 3.5rem;
+}
+.banner-list-text{
+  font-size: 0.9rem;
+}
+.button-1, .button-2{
+padding:12px 22px
+}
 
 
 

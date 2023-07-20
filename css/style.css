@@ -88,6 +88,7 @@ background-image: url(../resources/images/Group\ 14.png);
 background-position: center left ;
 background-repeat: no-repeat;
 background-size: contain;
+margin-top: 50px;
 }
 .banner-container {
   width: 80%;
@@ -97,12 +98,10 @@ background-size: contain;
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
-  /* justify-items: center; */
 }
 .banner-text-container {
   min-height: 100px;
   border: 1px solid green;
-  /* padding-right: 100px; */
 }
 .banner-image-container {
   min-height: 100px;
@@ -138,6 +137,7 @@ background-size: contain;
 }
 .banner-list-text{
   margin-bottom: 20px;
+  line-height: 2rem;
 }
 
 /* .fa-download{
