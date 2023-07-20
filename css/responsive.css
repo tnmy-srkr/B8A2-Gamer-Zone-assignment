@@ -142,6 +142,7 @@
   .play-instantly-container {
     flex-direction: column;
     gap: 70px;
+    margin-bottom: 100px;
   }
   .play-instantly-text {
     width: 100%;
@@ -346,6 +347,7 @@
       .play-instantly-container {
         flex-direction: column;
         gap: 70px;
+        margin-bottom: 120px;
       }
       .play-instantly-text {
         width: 100%;
@@ -387,17 +389,17 @@
       .footer-links,
       .footer-icons {
         display: grid;
-        grid-template-columns: repeat(6, 80px);
+        grid-template-columns: repeat(3, 80px);
         place-items: center;
         margin-bottom: 20px;
       }
       .footer-links a,
       .footer-terms a {
-        font-size: 0.8rem;
+        font-size: 0.7rem;
       }
       .footer-terms {
         display: grid;
-        grid-template-columns: repeat(4, 130px);
+        grid-template-columns: repeat(2, 120px);
         place-items: center;
         margin-bottom: 20px;
       }
