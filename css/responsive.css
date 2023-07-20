@@ -23,60 +23,79 @@
   }
   /* navbar section ends here */
   /* banner section starts here */
-  
-  .banner-container {
-    flex-direction: column-reverse;
-    /* margin-top: 80px; */
-    margin-bottom: 80px;
-    gap: 10px;
-  }
-
-  .banner-container-section,.gamer-container-section {
+  /* ..................................................... */
+  .banner-container-section{
     background-image: none;
   }
+  .banner-text-container{
+    background-image: url(../resources/images/Group\ 14.png);
+background-position: center left ;
+background-repeat: no-repeat;
+background-size: 100%;
+  }
+  .banner-text{
+    /* padding-left: 100px; */
+  }
+  .banner-container {
+    grid-template-columns: 1fr;
+   }
+.banner-text-container{
+order: 2;
+}
+.banner-image-container{
+order: 1;
+}
+
+
+
+
+
+
+  /* ...................................................... */
+  /* .banner-container {
+    flex-direction: column-reverse;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    gap: 10px;
+  } */
+
+  /* .banner-container-section,.gamer-container-section {
+    background-image: none;
+  } */
   
 
-  .banner-text {
+  /* .banner-text {
     width: 100%;
-    /* height: 100%; */
     margin: 0 auto;
     text-align: center;
-   
-  }
+  } */
  
-  .banner-image {
+  /* .banner-image {
     width: 100%;
     height: 80%;
-    /* height: inherit; */
-    /* background-size: contain; */
-    /* margin-top: 100px; */
-    /* padding-bottom: 50px; */
-  }
-  .banner-img {
+  } */
+  /* .banner-img {
     width: 100%;
     height: 100%;
-    /* margin-top: 100px; */
-
     object-fit: contain;
-  }
-  .banner-heading-1 {
+  } */
+  /* .banner-heading-1 {
     font-size: 1.8rem;
-    /* padding-top: 100px; */
-  }
-  .banner-heading-2 {
+  } */
+  /* .banner-heading-2 {
     font-size: 3rem;
-  }
-  .banner-list-text{
+  } */
+  /* .banner-list-text{
     line-height: 1.2rem;
-  }
-  .btn-primary {
+  } */
+  /* .btn-primary {
     font-size: 0.6rem;
     padding: 10px 20px;
     margin-bottom: 10px;
-  }
-  .btn-2 {
+  } */
+  /* .btn-2 {
     margin-bottom: 50px;
-  }
+  } */
   /* banner section ends here */
 
   /* gamer section starts here */
@@ -233,56 +252,83 @@
     }
     /* navbar section ends here */
     /* banner section starts here */
-    .banner-container-section, .gamer-container-section{
+
+     /* ..................................................... */
+     .banner-container-section{
       background-image: none;
     }
-    .banner-container {
+    .banner-text-container{
+      width: 100%;
+      background-image: url(../resources/images/Group\ 14.png);
+  background-position: center left ;
+  background-repeat: no-repeat;
+  background-size:100%;
+  
+    }
+   
+     .banner-container {
+      grid-template-columns: 1fr;
+     
+      /* justify-items: center; */
+     
+     }
+.banner-text-container{
+  order: 1;
+}
+.banner-image-container{
+  order: 2;
+}
+
+
+
+
+
+  /* ...................................................... */
+    /* .banner-container-section, .gamer-container-section{
+      background-image: none;
+    } */
+    /* .banner-container {
       padding-top: 50px;
-      /* padding-bottom: 200px; */
       flex-direction: column;
       gap: 10px;
       margin-bottom: 100px;
-    }
+    } */
   
-    .banner-container-section {
+    /* .banner-container-section {
       background: none;
     }
-   
-    .banner-text {
-
+    */
+    /* .banner-text {
       width: 100%;
       margin: 0 auto;
       text-align: center;
-     
-    }
-    .banner-image {
+    } */
+    /* .banner-image {
       width: 100%;
       height: 80%;
-     
-    }
-    .banner-img {
+    } */
+    /* .banner-img {
       width: 100%;
       height: 100%;
       object-fit: contain;
-      
-    }
-    .banner-heading-1 {
+    } */
+    /* .banner-heading-1 {
       font-size: 1.8rem;
       padding-top: 50px;
-    }
-    .banner-heading-2 {
+    } */
+    /* .banner-heading-2 {
       font-size: 3rem;
-    }
-  .banner-list-text{
+    } */
+  /* .banner-list-text{
     line-height: 1.2rem;
-  }
-    .btn-primary {
+  } */
+    /* .btn-primary {
       font-size: 0.6rem;
       padding: 10px 20px;
       margin-bottom: 10px;
-    }
-    .btn-2 {
-      margin-bottom: 50px;}
+    } */
+    /* .btn-2 {
+      margin-bottom: 50px;} */
       /* banner section ends here */
 
       /* gamer section starts here */
