@@ -183,7 +183,7 @@
     display: grid;
     grid-template-columns: repeat(3, 70px);
     place-items: center;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
   }
   .footer-links a,
   .footer-terms a {
@@ -391,7 +391,7 @@
         display: grid;
         grid-template-columns: repeat(3, 80px);
         place-items: center;
-        margin-bottom: 20px;
+        margin-bottom: 35px;
       }
       .footer-links a,
       .footer-terms a {
