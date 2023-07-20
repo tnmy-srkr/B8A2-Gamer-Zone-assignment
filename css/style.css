@@ -24,7 +24,7 @@ header {
   box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
 }
 .nav-container {
-  /* min-height: 70px; */
+
   width: 80%;
   margin: 0 auto;
   display: flex;
@@ -90,7 +90,7 @@ header {
   display: flex;
   /* background-image: url(../resources/images/Group\ 18.png); */
 gap: 175px;
-  /* justify-content: center; */
+  
   align-items: center;
   
 
@@ -379,7 +379,7 @@ height: 100%;
 /* game name section starts */
 .game-name-section{
   background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
-  padding: 50px 0 50px;
+  padding: 10px 0 10px;
 }
 .game-name-container{
 width: 80%;

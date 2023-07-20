@@ -296,7 +296,7 @@
         width: 85%;
         margin: 0 auto;
         text-align: center;
-        margin-top: 140px;
+        margin-top: 10px;
       }
       .gamer-info-headings {
         font-size: 2.4rem;
@@ -316,9 +316,7 @@
       /* gamer section ends here */
 
       /* funny video section starts here */
- .funny-video-section{
-    padding-top: 100px;
-  }
+ 
       .funny-video-text {
         width: 90%;
         margin: 0 auto;
